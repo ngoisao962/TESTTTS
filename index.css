@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0 !important;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Inter', sans-serif;
+}
+.content_login{
+    width: 1200px;
+    height: 900px;
+    margin: 60px auto;
+   
+}
+.item_login_image{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background: #3C2B4B;
+}
+.item_login_image img{
+    text-align: center;
+    margin: auto;
+}
+.login_item_box{
+    height: 100%;
+}
+.item_login_title{
+    width: 40%;
+    margin: auto;
+    padding: 0 70px;
+}
+.item_box_frist{
+    display: flex;
+    height: 100%;
+}
+.title_image_logo{
+    margin-bottom: 60px;
+}
+.title_p{
+    margin-bottom: 15px;
+}
+.item_input_login{
+    padding: 10px 40px 10px 15px;
+    position: relative;
+    width: 100%;
+    background-color: #F1F1F1;
+    border: 0;
+    
+}
+.google{
+    border-radius: 10px 0px 0px 10px;
+}
+.title_input_box{
+    position: relative;
+    width: 50%;
+}
+.icon_input{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ul{
+    margin-bottom: 0 !important;
+}
+.facebook{
+    border-radius: 0px 10px 10px 0px;
+}
+.content_input{
+    display: flex;
+    gap: 0 5px;
+}
+.border_login{
+    width: 100%;
+    height: 5px;
+    background-color: #F1F1F1;
+    margin: 40px 0px;
+}
+/*tab */
+.tabs {
+    display: flex;
+    position: relative;
+  }
+  .tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    /* background-color: #c23564; */
+    transition: all 0.2s ease;
+  }
+  .tab-item {
+    min-width: 80px;
+    padding: 16px 20px 11px 20px;
+    /* font-size: 16px; */
+    text-align: center;
+    color: #888888;
+    /* background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+    /* border-bottom: 5px solid transparent; */
+    /* opacity: 0.6; */
+    cursor: pointer;
+    
+    /* transition: all 0.5s ease; */
+  }
+  .tab-item p{
+    font-family: 'Roboto', sans-serif;
+  }
+  /* .tab-item:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+  } */
+  .tab-item.active {
+    opacity: 1;
+    color: #242424;
+    background-color: #F1F1F1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 700;
+  }
+  /* .tab-content {
+    padding: 28px 0;
+  } */
+  .tab-pane {
+    color: #333;
+    display: none;
+  }
+  .tab-pane.active {
+    display: block;
+  }
+  .tab-pane h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .item_login_ip{
+    background-color: #F1F1F1;
+    padding: 15px 20px;
+    width: 100%;
+    border: 0;
+    border-top-right-radius: 10px;
+  }
+  .btn_log_in{
+    background-color: #303030;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    border-radius: 0 0px 10px 10px;
+  }
+  .select_input{
+    width: 100%;
+    background-color: #F1F1F1;
+    border: 0;
+    padding: 15px 20px;
+  }
+  select option{
+    background-color: #F1F1F1;
+    padding: 25px;
+    height: 50px;
+    
+  }
+  select option:checked {
+    color: white;
+    background-color: #999999;
+  }
+  select option:hover {
+    color: white;
+    background-color: #999999;
+  }
+  .check_span{
+    color: red;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .for_pass{
+    color: black;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
+  .agrree_p{
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .footer_box{
+    background-color: #111111;
+   
+  }
+  .content_footer{
+    color: #999999;
+    font-weight: 600;
+  }
+  .foooter_div{
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .content_footer ul li a{
+    color: #999999;
+  }
+  .content_footer ul li{
+    margin-bottom: 10px;
+  }
+  .box_footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_right ul{
+    display: flex;
+    gap: 0 10px;
+  }
+
+
+  .custom-select {
+    position: relative;
+    
+  }
+  
+  .custom-select select {
+    display: none; 
+  }
+  
+  .select-selected {
+    background-color: #F1F1F1;
+  }
+  
+
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #989898 transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  /* .select-selected.select-arrow-active:after {
+    border-color: #989898 transparent transparent transparent;
+    top: 7px;
+  } */
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    
+    padding: 15px 20px;
+    
+   
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: #F1F1F1;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  /* .item_li{
+    position: relative;
+    float: left;
+  }
+  .item_li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+  .tabs .active::before{
+    background: white;
+    z-index: 1;
+} */
+.erreo{
+    display: none;
+}
